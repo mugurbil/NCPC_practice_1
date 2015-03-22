@@ -27,6 +27,14 @@ typedef pair<int, int> PII;
 const int INF = (int)1E10;
 #define MAXN 100005
 
+// check if the train data is correct
+// n = number of stops
+// c = passenger capacity of the train
+// N = number of passengers on the train
+// p = boolean to state if it is possible
+// l = number of passengers leaving the train
+// e = number of passengers entering the train
+// s = number of passengers who stayed in the station
 int main() 
 {
     int n;
@@ -66,6 +74,5 @@ int main()
     }
     if ( p == 0 ) cout << "impossible" << endl;
     else cout << "possible" << endl;
-
 	return 0;
 }
